@@ -3,3 +3,11 @@ body {
     background: beige;
     text-align: center;
 }
+
+/* 
+ * The . in front indicates this is a "class". 
+ * Any html tags with "sheetsTable" as a class will apply these rules. 
+ */
+.sheetsTable {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
