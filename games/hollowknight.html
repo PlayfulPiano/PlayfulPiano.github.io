@@ -2,10 +2,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="../styles.css">
+    <title>Hollow Knight</title>
+    <link rel="stylesheet" href="../styles.css"> <!-- Tip: Consider having a separate CSS file for these types of pages to keep your CSS clean -->
 </head>
 <body>
     <a href="../index.html">Back to Home</a>
+
+    <h1>Hollow Knight</h1>
+    
+    <!-- For ways to stylize a table, check out https://www.w3schools.com/css/css_table.asp -->
+    <table class="sheetsTable"> <!-- class="sheetsTable" applies "sheetsTable" as a class to be used in CSS. You can apply multiple classes by separating them with spaces class="sheetsTable mainTable etc"-->
+        <thead>
+            <tr>
+                <!-- If you want column headers for your columns, you can build that here-->
+                <th>Title</th>
+                <th>Printable Sheet Music</th>
+                <th><img class="logo" src="../images/youtubetext.png" alt="Youtube Presentation"></th>
+                <th>Original Track</th>
+            </tr>
+        </thead>
+        <tbody> <!-- This indicates the body of the table -->
+            <tr> <!-- This indicates a new row in the table -->
+                <th>White Palace</th> <!--You can use <th> instead of <td> to indicate this is a row header -->
+                <td><a href="">[PDF]</a></td> <!-- <td> represents a single data cell in the table -->
+                <td><a href="">[Link]</a></td>
+                <td><a href="">[Link]</a></td>
+            </tr>
+            <tr>
+                <th>City of Tears</th>
+                <td><a href="">[PDF]</a></td>
+                <td><a href="">[Link]</a></td>
+                <td><a href="">[Link]</a></td>
+            </tr>
+            <!-- Continue ad nauseum (yes, it's repetive -- this is why frameworks like Jekyll, React, and Angular exist) -->
+            <!-- I would consider putting them in some logical ordering for now (like alphabetical ordering) -->
+        </tbody>
+    </table>
 </body>
 </html>

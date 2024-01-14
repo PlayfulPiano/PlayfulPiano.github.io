@@ -1,5 +1,55 @@
 body {
     margin: 0;
+    padding: 0;
     background: beige;
     text-align: center;
+}
+
+/* 
+ * The . in front indicates this is a "class". 
+ * Any html tags with "sheetsTable" as a class will apply these rules. 
+ */
+.sheetsTable {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sheetsTable td, .sheetsTable th {
+    text-align: center;
+    border: 2px solid black;
+}
+
+.sheetsTable th, .sheetsTable td {
+    padding: 15px;
+}
+
+.logo {
+    width: 50px; /* or whatever size you want */
+    height: auto; /* maintain aspect ratio */
+}
+.header {
+    margin-top: 2.5cm;
+}
+.social-media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.social-media img {
+    width: 100px;
+    height: auto;
+}
+.sheet-music {
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.sheet-music img {
+    width: 400px;
+    height: auto;
+    vertical-align: middle;
 }
